@@ -1,11 +1,8 @@
 # #####################################
 # version check qt
 # #####################################
-contains(QT_VERSION, ^4\.[0-4]\..*) { 
-    message("Cannot build FsGui with Qt version $$QT_VERSION.")
-    error("Use at least Qt 4.5.")
-}
-QT += xml
+
+QT += core gui widgets xml
 TARGET = fscomm
 macx:TARGET = FSComm
 TEMPLATE = app

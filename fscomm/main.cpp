@@ -27,7 +27,7 @@
  *
  */
 
-#include <QtGui/QApplication>
+#include <QApplication>
 #include <QSplashScreen>
 #include "mainwindow.h"
 #include "isettings.h"
